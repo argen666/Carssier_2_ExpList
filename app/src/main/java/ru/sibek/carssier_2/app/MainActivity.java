@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
         // список аттрибутов элементов для чтения
         String childFrom[] = new String[] {"phoneName"};
         // список ID view-элементов, в которые будет помещены аттрибуты элементов
-        int childTo[] = new int[] {android.R.id.text1};
+        int childTo[] = new int[] {R.id.lvSubMain};
 
         DoubleExpandableListAdapter adapter = new DoubleExpandableListAdapter(
                 this,
